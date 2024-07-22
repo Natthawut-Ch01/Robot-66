@@ -1,4 +1,4 @@
-//ใส่ในไฟล์ep4-7
+//ใส่ในไฟล์ep4-7 และ ep5-7
 const uint32_t animation[][4] = {
 	{
 		0xae0aa0ae,
