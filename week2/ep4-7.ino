@@ -29,3 +29,56 @@ void loop() {
   delay(500);
   Serial.println(millis());
 }
+
+
+/*use annimation.h
+const uint32_t animation[][4] = {
+	{
+		0xae0aa0ae,
+		0xe800000,
+		0x0,
+		66
+	},
+	{
+		0x57055,
+		0x5707400,
+		0x0,
+		66
+	},
+	{
+		0x2b,
+		0x82a82b83,
+		0xa0000000,
+		66
+	},
+	{
+		0x0,
+		0x15c1541,
+		0x5c1d0000,
+		66
+	},
+	{
+		0x0,
+		0xae0,
+		0xaa0ae0e8,
+		66
+	},
+	{
+		0x2b,
+		0x82a82b83,
+		0xa0000000,
+		66
+	},
+	{
+		0x57055,
+		0x5707400,
+		0x0,
+		66
+	},
+	{
+		0xae0aa0ae,
+		0xe800000,
+		0x0,
+		66
+	}
+};*/
