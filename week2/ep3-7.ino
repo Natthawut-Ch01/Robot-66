@@ -22,6 +22,13 @@ void loop(){
   mnt();
   ns();
   matrix.renderBitmap(frame, 8, 12);
+  delay(500);
+
+  w_le();
+  w_re();
+  matrix.renderBitmap(frame, 8, 12);
+  delay(500);
+  
 }
 void le(){
   frame[1][3]=1;
@@ -50,3 +57,42 @@ void ns(){
   frame[3][5]=1;
   frame[3][6]=1;
 }
+
+void w_le(){
+  frame[1][3]=1;
+  frame[1][4]=1;
+  frame[2][3]=1;
+  frame[2][4]=1;
+}
+
+void w_re(){
+  frame[1][8]=1;
+  frame[1][9]=1;
+  frame[2][8]=1;
+  frame[2][9]=1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
